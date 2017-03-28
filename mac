@@ -144,6 +144,9 @@ brew "node"
 brew "rbenv"
 brew "ruby-build"
 
+# Yarn
+brew "yarn"
+
 # Databases
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
